@@ -1,0 +1,83 @@
+                    
+.image{height: 95vh;
+    width: 70vw;
+    position: relative;
+    background-size: cover;
+    background-image: url(images/thebest.jpg);
+    margin-left: 12%;
+
+
+}
+
+
+.image .overlay{height: 95vh;
+             width: 70vw;
+             position: absolute;
+             
+             background-color: black;
+             background: rgba(0, 0, 0, 0.3);
+             
+            
+}
+.image .overlay .text{color: white;
+                    font-size: xx-large; 
+                    margin-top: 3%;            
+}
+.image .overlay .text span{color: #23A6F0 ;}
+
+
+.image .overlay .text p{display: inline;}
+.image .overlay .one{
+                 color: white;
+                 display: flex;
+                 font-size: xx-large;
+                 align-items: center;
+                 flex-direction: column;
+                 margin-top: 25%;
+
+
+}
+.image .overlay .one button{
+                         padding: 2%;
+                         width: 10%;
+                         border-radius: 15px;
+                         font-size: 18px;
+                         color: white;
+                         background-color: #23A6F0;
+                         
+}
+.pagetwo{
+ height: 40vh;
+ width: 70vw;
+ margin-left: 12%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ margin-top: 10%;
+
+
+}
+
+.info{height: 60vh;
+ width: 70vw;
+ background-color: #23A6F0;
+ margin-left: 12%;
+
+}
+.info h1{color: white;
+      font-size: xx-large;
+      text-align: center;
+
+
+}
+
+.info .pictureone h2{color: whitesmoke;}
+
+
+
+
+
+
+
+
+
