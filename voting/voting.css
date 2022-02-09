@@ -16,3 +16,30 @@ body {
   max-width: 100%;
   border-radius: 50%;
 }
+.first-lot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin: 25px 0 25px;
+}
+.second-lot {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  justify-content: center;
+  margin-bottom: 30px;
+}
+.container {
+  background-color: white;
+  margin: 20px;
+  padding: 10px 20px 80px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  border-radius: 15px;
+  box-shadow: 2px 3px 5px #888888e0;
+}
+.text {
+  margin-top: 10px;
