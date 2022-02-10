@@ -1,15 +1,15 @@
                     
 .image{height: 95vh;
-    width: 70vw;
-    position: relative;
-    background-size: cover;
-    background-image: url(/Online-Voting-System/images/thebest.jpg);
-    margin-left: 12%;
+       width: 70vw;
+       position: relative;
+        background-size: cover;
+       background-image: url(/Online-Voting-System/images/thebest.jpg);
+       margin-left: 12%;
 
 
 }
 
-
+                 
 .image .overlay{height: 95vh;
              width: 70vw;
              position: absolute;
@@ -62,13 +62,14 @@ image .overlay .nav-bar table{color: white;}
 
 }
        
-.info{height: 60vh;
- width: 70vw;
- background-color: #23A6F0;
- margin-left: 12%;
+.info{height: 80vh;
+      width: 70vw;
+
+ 
+      margin-left: 12%;
 
 }
-.info h1{color: white;
+.info h1{color:black;
       font-size: xx-large;
       text-align: center;
       font-weight: bolder;
@@ -79,11 +80,23 @@ image .overlay .nav-bar table{color: white;}
 .info .container{display: flex;
                   justify-content: space-between;
 }
-.info .container .box-one{border: solid 2px black;
-                          height: 19%;
+.info .container .box-one{border: solid 2px transparent;
+                          height: 20%;
                           width: 15%;
-                          padding: 6%;
+                          border-radius: 15%;
+                          margin: 2%;
+                          padding: 7%;
+                          box-shadow: 2,2,2,2;
 
+
+
+}
+.info .container .box-one h2{color: #23A6F0;}
+.picturetwo{background-image: url(/Online-Voting-System/images/pictwelve.jpg);
+            margin-left: 12%;
+            height: 60vh;
+            width: 70vw;
+            background-size: cover;
 
 
 }
