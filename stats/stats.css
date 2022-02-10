@@ -27,10 +27,44 @@
     .main{
         border: 1px solid black;
         margin-top: 900px;
-        margin-left: -300px;
+        margin-left: 300px;
         display: flex;
       }
       .container{
         width: 300px;
         background-color: #ddd;
       }
+      .vote{
+        text-align: right;
+        padding-top: 10px;
+        padding-left: 10px;
+      }
+      .gee{
+        margin-left: 100px;
+      }
+      .candidate1{
+        width: 90%;
+        background-color: purple;
+      }
+      .candidate2{
+        width: 70%;
+        background-color: purple;
+      
+      }
+      .candidate3{
+        width:60%;
+        background-color: purple;
+      }
+      .candidate4{
+        width: 50%;
+        background-color: purple;
+      }
+      .candidate5{
+        width: 40%;
+        background-color: purple;
+      }
+      .candidate6{
+        width: 30%;
+        background-color: purple;
+      }
+      
