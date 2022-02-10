@@ -1,10 +1,10 @@
                     
 .image{height: 95vh;
-    width: 70vw;
-    position: relative;
-    background-size: cover;
-    background-image: url(/Online-Voting-System/images/thebest.jpg);
-    margin-left: 12%;
+       width: 70vw;
+       position: relative;
+        background-size: cover;
+       background-image: url(/Online-Voting-System/images/thebest.jpg);
+       margin-left: 12%;
 
 
 }
@@ -86,7 +86,7 @@ image .overlay .nav-bar table{color: white;}
                           border-radius: 15%;
                           margin: 2%;
                           padding: 7%;
-                          background-color:;
+                          box-shadow: 2,2,2,2;
 
 
 
