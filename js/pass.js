@@ -7,7 +7,7 @@ function validate(){
     return false;
     }
     else if ( nwp == "" && cps == ""){
-        alert ("insert your password");
+        alert ("insert a new password");
         return false;
 }
 }
