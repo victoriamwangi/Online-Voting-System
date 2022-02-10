@@ -1,0 +1,121 @@
+                    
+.image{height: 95vh;
+    width: 70vw;
+    position: relative;
+    background-size: cover;
+    background-image: url(/Online-Voting-System/images/thebest.jpg);
+    margin-left: 12%;
+
+
+}
+
+
+.image .overlay{height: 95vh;
+             width: 70vw;
+             position: absolute;
+             
+             background-color: black;
+             background: rgba(0, 0, 0, 0.3);
+
+             
+            
+}
+image .overlay .nav-bar table{color: white;}
+.image .overlay .text{color: white;
+                    font-size: xx-large; 
+                    margin-top: 3%;            
+}
+.image .overlay .text span{color: #23A6F0 ;}
+
+
+.image .overlay .text p{display: inline;}
+.image .overlay .one{
+                 color: white;
+                 display: flex;
+                 font-size: xx-large;
+                 align-items: center;
+                 flex-direction: column;
+                 margin-top: 20%;
+
+
+}
+#log{
+                         padding: 2%;
+                         width: 120px;
+                         height: 60px;
+                         border-radius: 15px;
+                         font-size: 18px;
+                         color: white;
+                         background-color: #23A6F0;
+                         
+}
+#log:hover{background-color: lime;}
+.pagetwo{
+ height: 40vh;
+ width: 70vw;
+ margin-left: 12%;
+ display: flex;
+ flex-direction: row;
+ justify-content: space-between;
+ margin-top: 10%;
+
+
+}
+       
+.info{height: 60vh;
+ width: 70vw;
+ background-color: #23A6F0;
+ margin-left: 12%;
+
+}
+.info h1{color: white;
+      font-size: xx-large;
+      text-align: center;
+      font-weight: bolder;
+      
+
+
+}
+.info .container{display: flex;
+                  justify-content: space-between;
+}
+.info .container .box-one{border: solid 2px black;
+                          height: 19%;
+                          width: 15%;
+                          padding: 6%;
+
+
+
+}
+
+
+
+
+
+            
+
+
+
+
+.picturetwo .imagetwo img{margin-top: 29%;
+                          padding-left: 8%;
+
+}
+.textthree{color: white;
+    text-align: center;
+
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
