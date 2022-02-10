@@ -51,6 +51,12 @@ nav {
 
 .card1 {
     background-color: #968D90;
+  
+}
+.c-content{
+      display: flex;
+      flex-direction: column;
+      align-items: center;
 }
 
 .card2 {
@@ -80,7 +86,13 @@ nav {
     width: 8vw;
 
 }
-
+/* .cards .card2  */
+.more {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-top: 2vw;
+}
 .info {
     background-color: #C4C4C4;
     width: 40%;
@@ -100,4 +112,8 @@ ul li {
 }
 #col1 ul .settings{
     margin-top: 15vw;
+}
+
+form{
+    width: 50%;
 }
