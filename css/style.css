@@ -76,15 +76,18 @@
                     font-size: xx-large;
 
 }
+
 .picturetwo{background-image: url(/Online-Voting-System/images/pictwelve.jpg);
             height: 60vh;
             width: 70vw;
             margin-left: 12%;
             background-size: cover;
+            
 
 
 
 }
+.picturetwo .imagetwo img{margin-top: 10%;}
 
 
 
