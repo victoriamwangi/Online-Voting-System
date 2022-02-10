@@ -1,15 +1,16 @@
 .page{
-    border: solid black;
+    /* border: solid black; */
+    width: 20%;
     background-color: whitesmoke;
     margin-top: 100px;
     margin-left: 300px;
     padding: 15px;
 }
 .chart h1{
-    border: 1px solid black;
-    margin-top: 300px;
+    /* border: 1px solid black; */
+    margin-top: 100px;
     margin-left: 300px;
-    text-align: center;
+    text-align: start;
     }
     .piechart {
         margin-top: 50px;
@@ -25,9 +26,10 @@
             
     }
     .main{
-        border: 1px solid black;
-        margin-top: 900px;
+        /* border: 1px solid black; */
+        margin-top: 550px;
         margin-left: 300px;
+        margin-bottom: 200px;
         display: flex;
       }
       .container{
