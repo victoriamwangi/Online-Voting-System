@@ -1,0 +1,164 @@
+ body{
+     overflow-x: hidden;
+ }                   
+.image{height: 100vh;
+       width: 100vw;
+       
+       position: relative;
+        background-size: cover;
+       background-image: url(/Online-Voting-System/images/thebest.jpg);
+       
+
+
+}
+
+                 
+.image .overlay{height: 100vh;
+             width: 100vw;
+             position: absolute;
+             
+             background-color: black;
+             background: rgba(0, 0, 0, 0.3);
+
+             
+            
+}
+image .overlay .nav-bar table{color: white;}
+.image .overlay .text{color: white;
+                    font-size: xx-large; 
+                    margin-top: 3%;            
+}
+.image .overlay .text span{color: #23A6F0 ;}
+
+
+.image .overlay .text p{display: inline;}
+.image .overlay .one{
+                 color: white;
+                 display: flex;
+                 font-size: xx-large;
+                 align-items: center;
+                 flex-direction: column;
+                 margin-top: 20%;
+
+
+}
+#log{
+                         padding: 2%;
+                         width: 120px;
+                         height: 60px;
+                         border-radius: 15px;
+                         font-size: 18px;
+                         color: white;
+                         background-color: #23A6F0;
+                         
+}
+#log:hover{background-color: lime;}
+.pagetwo{
+ height: 90vh;
+ width: 85vw;
+ align-items: center;
+ justify-content: space-between;
+ display: flex;
+ flex-direction: row;
+ 
+ 
+ margin-top: 12%;
+ 
+
+
+}
+
+.pagetwo .three{border: solid black 2px;
+    height: 60%;
+    width: 20% ; 
+    border-radius: 10%; 
+    text-align: center;
+    margin-left: 10%;
+
+}
+ 
+.pagetwo .four{border: solid black 2px;
+    height: 60%;
+    width: 20% ; 
+    border-radius: 10%; 
+    text-align: center;                    }
+ 
+.pagetwo .five{border: solid black 2px;
+    height: 60%;
+    width: 20% ;  
+    border-radius: 10%;
+    text-align: center;                      }      
+
+
+       
+.info{height: 80vh;
+      width: 70vw;
+     margin-left: 12%;
+
+}
+.info h1{color:black;
+      font-size: xx-large;
+      text-align: center;
+      font-weight: bolder;
+      
+
+
+}
+.info .container{display: flex;
+                  justify-content: space-between;
+}
+.info .container .box-one{border: solid 2px transparent;
+                          height: 20%;
+                          width: 15%;
+                          border-radius: 15%;
+                          margin: 2%;
+                          padding: 7%;
+                          box-shadow: 2,2,2,2;
+
+
+
+}
+.info .container .box-one h2{color: #23A6F0;}
+.picturetwo{
+            margin-left: 12%;
+            height: 100vh;
+            width: 100vw;
+            background-size: cover;
+
+
+}
+
+
+
+
+
+            
+
+
+
+
+.picturetwo .imagetwo img{
+                          padding-left: 8%;
+
+}
+.textthree{color: #23A6F0;
+    text-align: center;
+
+
+}
+.picturetwo .imagetwo table{
+                        
+
+}
+
+
+
+
+
+
+
+
+
+
+
+
