@@ -3,6 +3,7 @@
  }                   
 .image{height: 100vh;
        width: 100vw;
+       
        position: relative;
         background-size: cover;
        background-image: url(/Online-Voting-System/images/thebest.jpg);
@@ -120,8 +121,8 @@ image .overlay .nav-bar table{color: white;}
 .info .container .box-one h2{color: #23A6F0;}
 .picturetwo{
             margin-left: 12%;
-            height: 60vh;
-            width: 70vw;
+            height: 100vh;
+            width: 100vw;
             background-size: cover;
 
 
@@ -145,7 +146,10 @@ image .overlay .nav-bar table{color: white;}
 
 
 }
+.picturetwo .imagetwo table{
+                        
 
+}
 
 
 
