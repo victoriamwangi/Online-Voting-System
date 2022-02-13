@@ -1,46 +1,85 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+body {
+  overflow-x: auto;
+}
 .image {
-  height: 95vh;
+  height: 100vh;
+  width: 100vw;
   position: relative;
   background-size: cover;
-  background-image: url(/Online-Voting-System/images/thebest.jpg);
+  background-image: url("../im/voy.jpeg");
 }
-
+.text {
+  margin-left: 300px;
+  margin-top: 170px;
+}
+.text p {
+  font-size: 20px;
+}
 .image .overlay {
-  height: 95vh;
-
+  height: 100vh;
+  width: 100vw;
   position: absolute;
 
   background-color: black;
   background: rgba(0, 0, 0, 0.3);
 }
-
-image .overlay .nav-bar table {
-  color: white;
+.navbar {
+  display: flex;
+  flex-direction: row;
+  padding: 10px;
+  height: 70px;
+  background-color: #199ff9;
 }
-
+.navbar h2 {
+  color: white;
+  font-weight: 700;
+  font-size: 35px;
+  margin-top: 17px;
+}
+.navlink {
+  margin-left: 650px;
+  margin-top: 25px;
+}
+.navlink a {
+  background-color: whitesmoke;
+  padding: 10px;
+  color: black;
+  border-radius: 10px;
+  width: 70px;
+  height: 30px;
+  text-align: center;
+  text-decoration: none;
+}
+#nav {
+  margin-right: 20px;
+}
 .image .overlay .text {
   color: white;
   font-size: xx-large;
-  margin-top: 3%;
+  margin-top: 70px;
+  width: 750px;
+  text-align: center;
 }
-
 .image .overlay .text span {
   color: #23a6f0;
 }
-
 .image .overlay .text p {
   display: inline;
 }
-
 .image .overlay .one {
   color: white;
   display: flex;
-  font-size: xx-large;
+  font-size: 15px;
   align-items: center;
-  flex-direction: column;
-  margin-top: 20%;
+  flex-direction: row;
+  margin-top: 85px;
+  margin-left: 450px;
+  font-size: 25px;
 }
-
 #log {
   padding: 2%;
   width: 120px;
@@ -49,69 +88,109 @@ image .overlay .nav-bar table {
   font-size: 18px;
   color: white;
   background-color: #23a6f0;
+  margin-top: 40px;
 }
-
-#log:hover {
-  background-color: lime;
-}
-
-.pagetwo {
-  height: 40vh;
-  width: 70vw;
-  margin-left: 12%;
-  display: flex;
-  flex-direction: row;
-  justify-content: space-between;
-  margin-top: 10%;
-}
-
 .info {
-  height: 80vh;
-  width: 70vw;
-  background-color: #23a6f0;
-  margin-left: 12%;
+  height: 400px;
+  width: auto;
+  background-color: #14264e;
+  opacity: 0.9;
 }
-
 .info h1 {
   color: black;
   font-size: xx-large;
-  text-align: center;
   font-weight: bolder;
+  margin-left: 420px;
 }
-
-.info .container {
-  display: flex;
-  justify-content: space-between;
-}
-
-.info .container .box-one {
-  border: solid 2px transparent;
-  height: 20%;
-  width: 15%;
-  border-radius: 15%;
-  margin: 2%;
-  padding: 7%;
-  box-shadow: 2, 2, 2, 2;
-}
-
-.info .container .box-one h2 {
-  color: #23a6f0;
-}
-
-.picturetwo {
-  background-image: url(/Online-Voting-System/images/pictwelve.jpg);
-  margin-left: 12%;
-  height: 60vh;
-  width: 70vw;
-  background-size: cover;
-}
-
-.picturetwo .imagetwo img {
-  margin-top: 29%;
-  padding-left: 8%;
-}
-
-.textthree {
+#inf {
+  padding-top: 60px;
+  text-decoration: underline;
   color: white;
+}
+.entails {
+  display: flex;
+  flex-direction: row;
+  margin-left: 140px;
+  margin-top: 50px;
+}
+.box-one {
+  border: solid 2px transparent;
+  height: auto;
+  width: 300px;
   text-align: center;
+  color: white;
+  margin-right: 30px;
+}
+.imon {
+  height: 90px;
+  width: 90px;
+  background-color: white;
+  border-radius: 80%;
+}
+.setup {
+  height: auto;
+  width: auto;
+  display: flex;
+  flex-direction: row;
+}
+.settx {
+  margin-left: 70px;
+  width: 450px;
+}
+.settx h2 {
+  margin-top: 130px;
+  text-decoration: underline;
+  font-size: 25px;
+  color: #14264e;
+}
+.setimg {
+  margin-left: 130px;
+  margin-top: 50px;
+}
+.transparent {
+  display: flex;
+  background-color: whitesmoke;
+  flex-direction: row;
+  height: auto;
+}
+.transimg {
+  margin-left: 80px;
+  margin-top: 60px;
+  margin-bottom: 60px;
+}
+.trans {
+  width: 550px;
+  margin-left: 90px;
+  margin-top: 80px;
+}
+.trans h2 {
+  color: #14264e;
+  text-decoration: underline;
+  font-weight: 700;
+}
+.info2 {
+  height: 400px;
+  width: auto;
+  background-color: #14264e;
+  opacity: 0.9;
+}
+.foot {
+  height: 70px;
+  width: auto;
+  background-color: #199ff9;
+  display: flex;
+  flex-direction: row;
+}
+.foot h3 {
+  text-align: center;
+  margin: 30px 0px 0px 300px;
+}
+.foot p {
+  margin-top: 30px;
+  font-size: 20px;
+  margin-left: 50px;
+}
+#demo {
+  color: #199ff9;
+  margin-left: 3px;
 }
